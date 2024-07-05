@@ -3,9 +3,9 @@
 export default function Hero() {
   return (
     <>
-      <section className="w-full flex justify-between items-center mx-auto">
+      <section className="w-full flex flex-col lg:flex-row justify-between items-center mx-auto p-6">
         <div className="w-full lg:max-w-[600px] leading-relaxed">
-          <h1 className="font-semibold text-6xl text-blue-900">
+          <h1 className="font-semibold text-3xl lg:text-6xl text-blue-900">
             <span className="text-[#f58d05]">Studying</span> Online is now much
             easier
           </h1>
@@ -13,8 +13,8 @@ export default function Hero() {
             Learn Mode is an interesting platform that will teach you in more an
             interactive way.
           </p>
-          <div className="py-8 flex gap-12 items-center">
-            <button className="bg-[#f58d05] text-white px-8 py-4 rounded-full font-semibold">
+          <div className="py-8 flex gap-12 items-center flex-col lg:flex-row">
+            <button className="bg-[#f58d05] text-white px-8 py-4 rounded-full font-semibold flex-shrink-0">
               Join for free
             </button>
             <div className="flex gap-4 items-center">

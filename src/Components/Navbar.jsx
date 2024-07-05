@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex justify-end gap-16 p-7 items-center">
-        <ul className="flex gap-16 text-lg">
+        <ul className="lg:flex gap-16 text-lg hidden">
           <li className="cursor-pointer">Home</li>
           <li className="cursor-pointer">Careers</li>
           <li className="cursor-pointer">Blog</li>
